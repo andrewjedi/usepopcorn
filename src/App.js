@@ -261,6 +261,7 @@ function WatchedMovie({ movie }) {
 function MovieDetails({ selectedId, onCloseMovie }) {
   const [movie, setMovie] = useState({});
 
+  // test
   const {
     Title: title,
     Year: year,
